@@ -1,0 +1,9 @@
+dataset,condition,k,all_512,standard_ga,anova,mutual_info,random
+BUSI,raw,231,0.782,0.784,0.784,0.787,0.774
+BUSI,predicted,254,0.796,0.797,0.787,0.800,0.784
+BUSI,shuffled,231,0.976,0.969,0.975,0.973,0.972
+BUSI,oracle,210,0.978,0.970,0.977,0.977,0.974
+BUS-UCLM,raw,232,0.556,0.535,0.554,0.553,0.556
+BUS-UCLM,predicted,225,0.556,0.541,0.554,0.572,0.533
+BUS-UCLM,shuffled,264,0.787,0.803,0.779,0.784,0.789
+BUS-UCLM,oracle,234,0.798,0.810,0.799,0.809,0.807

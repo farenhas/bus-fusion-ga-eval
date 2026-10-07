@@ -1,0 +1,9 @@
+dataset,a,b,a_only_correct,b_only_correct,p_exact
+BUSI,predicted,raw,64,59,0.72
+BUSI,oracle,shuffled,23,21,0.88
+BUSI,oracle,raw,135,12,<0.0001
+BUSI,shuffled,raw,138,17,<0.0001
+BUS-UCLM,predicted,raw,55,51,0.77
+BUS-UCLM,oracle,shuffled,51,46,0.68
+BUS-UCLM,oracle,raw,139,17,<0.0001
+BUS-UCLM,shuffled,raw,142,25,<0.0001

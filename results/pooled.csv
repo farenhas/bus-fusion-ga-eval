@@ -1,0 +1,9 @@
+dataset,condition,macro_f1,ci_low,ci_high,recall_benign,recall_malignant,recall_normal
+BUSI,raw,0.784,0.752,0.816,0.886,0.733,0.692
+BUSI,predicted,0.800,0.769,0.829,0.881,0.676,0.835
+BUSI,shuffled,0.969,0.955,0.980,0.982,0.914,1.000
+BUSI,oracle,0.970,0.959,0.981,0.989,0.910,1.000
+BUS-UCLM,raw,0.587,0.542,0.631,0.466,0.311,0.936
+BUS-UCLM,predicted,0.570,0.525,0.613,0.460,0.233,0.964
+BUS-UCLM,shuffled,0.823,0.786,0.861,0.805,0.667,0.998
+BUS-UCLM,oracle,0.835,0.797,0.869,0.810,0.700,1.000
