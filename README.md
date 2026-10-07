@@ -40,13 +40,13 @@ data/
 pip install -r requirements.txt
 ```
 
-Run the notebooks in order, once per dataset (set `DATASET` at the top of each notebook):
+Run the notebooks in `code/` in the order below, once per dataset (set `DATASET` at the top of each notebook):
 
 | Notebook | Content | Hardware |
 |---|---|---|
-| `1_pipeline.ipynb` | outer folds, input conditions, predicted masks, features | GPU |
-| `2_feature_selection.ipynb` | six GA configurations and feature-selection baselines | CPU, many cores |
-| `3_evaluation.ipynb` | pooled results, bootstrap CI, McNemar, Friedman, Wilcoxon, stability | CPU |
+| `pipeline.ipynb` | outer folds, input conditions, predicted masks, features | GPU |
+| `feature_selection.ipynb` | six GA configurations and feature-selection baselines | CPU, many cores |
+| `evaluation.ipynb` | pooled results, bootstrap CI, McNemar, Friedman, Wilcoxon, stability | CPU |
 
 Intermediate files are written to `outputs/<dataset>/`. The GA runs dominate the runtime.
 
