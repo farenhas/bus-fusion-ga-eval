@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+joblib
+opencv-python-headless
+PyWavelets==1.8.0
+scikit-learn==1.6.1
+tensorflow==2.20.0
