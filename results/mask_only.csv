@@ -1,0 +1,5 @@
+dataset,masks,macro_f1,ci_low,ci_high,fold_mean,fold_sd,recall_benign,recall_malignant,recall_normal
+BUSI,expert,0.974,0.962,0.985,0.974,0.006,0.979,0.938,1.0
+BUSI,predicted,0.668,0.632,0.701,0.639,0.097,0.771,0.524,0.729
+BUS-UCLM,expert,0.798,0.756,0.836,0.767,0.081,0.828,0.556,1.0
+BUS-UCLM,predicted,0.557,0.515,0.598,0.506,0.145,0.437,0.244,0.947
