@@ -61,3 +61,18 @@ Intermediate files are written to `outputs/<dataset>/`. The GA runs dominate the
 ## Environment
 
 Python 3.13, TensorFlow 2.20, scikit-learn 1.6.1, PyWavelets 1.8.0.
+
+## Configuration names
+
+The code uses internal names; the paper uses descriptive abbreviations.
+
+| Code        | Paper   | Modification                                          | Source                    |
+|-------------|---------|-------------------------------------------------------|---------------------------|
+| `Standard`  | SGA     | Standard GA                                           | Dar & Ganivada (2024)     |
+| `Naskar_ab` | GA-ACS  | Arithmetic crossover + adaptive parent selection      | Naskar et al. (2025)      |
+| `Naskar_c`  | GA-KMI  | K-means-guided initialization                         | Naskar et al. (2025)      |
+| `OBL_init`  | GA-OBI  | Opposition-based initialization                       | Tizhoosh (2005)           |
+| `OBL_jump`  | GA-OBJ  | Opposition-based generation jumping                   | Rahnamayan et al. (2008)  |
+| `OBL_both`  | GA-OBIJ | Opposition-based initialization + generation jumping  | Tizhoosh; Rahnamayan et al. |
+
+Input conditions in the code: `raw`, `pred` (predicted), `shuffle` (shuffled), `oracle`.
