@@ -47,6 +47,7 @@ Run the notebooks in `code/` in the order below, once per dataset (set `DATASET`
 | `pipeline.ipynb` | outer folds, input conditions, predicted masks, features | GPU |
 | `feature_selection.ipynb` | six GA configurations and feature-selection baselines | CPU, many cores |
 | `evaluation.ipynb` | pooled results, bootstrap CI, McNemar, Friedman, Wilcoxon, stability | CPU |
+| `mask_control.ipynb` | mask-only control: eight shape descriptors of expert and predicted masks, McNemar against oracle fusion | CPU |
 
 Intermediate files are written to `outputs/<dataset>/`. The GA runs dominate the runtime.
 
@@ -55,7 +56,8 @@ Intermediate files are written to `outputs/<dataset>/`. The GA runs dominate the
 `results/` contains the main values reported in the paper:
 
 - `pooled.csv`: pooled out-of-fold macro-F1 with 95% bootstrap CI and per-class recall (standard GA, seed 0)
-- `mcnemar.csv`: exact McNemar tests between conditions
+- `mcnemar.csv`: exact McNemar tests between conditions and between the expert-mask-only classifier and oracle fusion
+- `mask_only.csv`: mask-only control with expert and predicted masks (macro-F1, 95% bootstrap CI, per-class recall)
 - `baselines.csv`: standard GA versus all features, ANOVA, mutual information and random subsets of the same size
 
 ## Environment
