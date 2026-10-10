@@ -7,3 +7,5 @@ BUS-UCLM,predicted,raw,55,51,0.77
 BUS-UCLM,oracle,shuffled,51,46,0.68
 BUS-UCLM,oracle,raw,139,17,<0.0001
 BUS-UCLM,shuffled,raw,142,25,<0.0001
+BUSI,expert_mask_only,oracle,13,11,0.84
+BUS-UCLM,expert_mask_only,oracle,27,37,0.26
